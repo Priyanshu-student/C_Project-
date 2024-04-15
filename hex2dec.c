@@ -44,8 +44,8 @@ int charToNumberConverter(char ch) {
     } else if (ch >= 'a' && ch <= 'f') {
         return ch - 'a' + 10;
     }
-    // Need a default return in case none of the conditions are met.
-    return -1; // Or any suitable error code
+    
+    return -1; 
 }
 
 int checker(char a) {
